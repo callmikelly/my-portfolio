@@ -1,0 +1,5 @@
+/* Add any custom CSS here if Tailwind doesn't cover it */
+body {
+    /* Example: You might want a specific font not easily available via Tailwind CDN classes */
+    /* font-family: 'Your Custom Font', sans-serif; */
+}

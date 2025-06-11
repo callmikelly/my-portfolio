@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-xl font-bold">My Portfolio</a>
+            <button id="menu-btn" class="md:hidden block text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+            <div id="menu" class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-gray-300">Home</a>
+                <a href="about.html" class="hover:text-gray-300">About</a>
+                <a href="projects.html" class="hover:text-gray-300">Projects</a>
+                <a href="contact.html" class="hover:text-gray-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-4 mt-8">
+        <section id="about" class="py-12">
+            <h1 class="text-4xl font-bold text-center mb-8">About Me</h1>
+            <div class="bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Hello! I'm [Your Name], a passionate [Your Profession/Student] with a love for [Your Interests/Skills].
+                    This section is where you can tell your story, highlight your skills, experience, and what drives you.
+                    Make it engaging and authentic!
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
